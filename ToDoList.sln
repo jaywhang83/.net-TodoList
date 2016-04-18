@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1EEF3809-2735-45CF-99F0-35C55FBB978E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0EC791D3-2C3F-4B45-BDFB-C1E91CDFD69F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ToDoList", "src\ToDoList\ToDoList.xproj", "{EF73F319-FD0D-4D29-9543-4219CFCC9916}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF73F319-FD0D-4D29-9543-4219CFCC9916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF73F319-FD0D-4D29-9543-4219CFCC9916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF73F319-FD0D-4D29-9543-4219CFCC9916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF73F319-FD0D-4D29-9543-4219CFCC9916}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF73F319-FD0D-4D29-9543-4219CFCC9916} = {1EEF3809-2735-45CF-99F0-35C55FBB978E}
+	EndGlobalSection
+EndGlobal
