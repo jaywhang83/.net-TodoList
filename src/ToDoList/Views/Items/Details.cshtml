@@ -15,5 +15,16 @@
     <hr />
     @Html.DisplayNameFor(model => model.Description): @Html.DisplayFor(model => model.Description)
     <p>@Html.ActionLink("Back to list", "Index")</p>
+    
+    @if (Model.Done)
+    {
+        <p>Task is done</p>
+
+    }
+    else
+    {
+        <p>Get on it</p>
+
+    }
 </body>
 </html>
